@@ -3386,7 +3386,7 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 800px) {
 
 				.wrapper.fullscreen {
 					padding: 5em 0;
@@ -4006,6 +4006,10 @@ input, select, textarea {
 
 .mr-5{
 	margin-right: 100px
+}
+
+.mb-0{
+	margin-bottom: 0;
 }
 
 .icon-redux{
