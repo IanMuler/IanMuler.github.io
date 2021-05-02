@@ -6,6 +6,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+html{
+	overflow-X: hidden;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3102,7 +3106,15 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+			@media (max-width: 800px){
 
+				.spotlights > section > .image:before {
+					
+					background: #edf2b8b0;
+					
+				}
+
+			}
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
 			display: -moz-flex;
