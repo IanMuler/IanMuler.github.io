@@ -3108,7 +3108,7 @@ input, select, textarea {
 			}
 			@media (max-width: 800px){
 
-				.spotlights > section > .image:before {
+				.spotlights > section > .image.first:before {
 					
 					background: #edf2b8b0;
 					
